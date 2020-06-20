@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin-right: -30px;
+}
+
+.homePage {
+
+    background: url(img/plantation-cycle-3840x2582-farming-agriculture-hd-4k-9075.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-brand {
+    font-family: 'Sigmar One';
+    font-weight: 500;
+}
+
+.navbar-nav {
+    font-weight: 900;
+
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox {
+    display: flex;
+    background-color: rgb(56, 204, 30);
+    padding: 13px;
+    border-radius: 90px;
+}
+
+.searchBox input {
+    line-height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 26px;
+    width: 0px;
+    transition: all 0.5s;
+}
+
+/* after hovering on search button it expand with given width */
+.searchBox:hover input {
+    width: 40vw;
+}
+
+.searchBox input:focus {
+    width: 40vw;
+}
+
+/* .searchBox:hover button {
+    color: red;
+    background-color: chartreuse;
+    border-radius: 50%;
+} */
+
+.searchBox :placeholder {
+    color: blue;
+
+}
+
+::placeholder {
+    color: white;
+
+}
+
+.searchBox button {
+    color: red;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+
+.carousel-item {
+    height: 37.5em;
+    padding-bottom: 250px !important;
+}
+
+.carousel-caption {
+    padding-bottom: 250px;
+}
+
+
+#govtSchemes {
+
+    height: 100%;
+    width: 100%;
+}
+
+.govScheme {
+    padding: 5%;
+    background-color: rgba(61, 190, 67, 0.89);
+
+}
+
+.govScheme p {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: x-large;
+}
+
+.fertilizer h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+.fertilizer {
+    padding: 5%;
+}
+
+.tools h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.tools {
+    padding: 5%;
+}
+
+
+
+
+/* LABOUR */
+
+.hoverLeft {
+
+    height: 15.625em;
+    width: 15.625em;
+    text-align: center;
+    margin: 7%;
+
+}
+
+.hoverLeft h3 {
+    border: 2px solid white;
+    /* border-bottom: 0.1px; */
+    margin-top: 7%;
+}
+
+.hoverLeft img {
+    border-radius: 90%;
+    height: 12.625em;
+    width: 12 .625em;
+
+
+}
+
+.colorOdd {
+    background-color: #5bc964;
+    margin: 2%;
+    padding: 2%;
+}
+
+
+
+.colorEven {
+    background-color: #2edcb3;
+}
+
+.resume {
+    margin: 4%;
+}
+
+
+
+.resume p {
+    color: white;
+}
+
+
+
+
+/* cost factor */
+
+#backpad {
+    background-color: #d1eecc;
+}
+
+#backpad input {
+    background-color: #76dbd1;
+    outline: none;
+    border: none;
+    /* height: 20px;
+    width: 29%; */
+    border-radius: 9px;
+    padding: 1%;
+
+}
+
+
+
+
+/* END OF COST FACTOR */
+
+.aboutUS_background {
+    background-color: #222222;
+    padding: 1%;
+}
+
+
+.aboutUS_background,
+h3,
+h2 {
+    color: white;
+}
+
+.aboutUS {
+    color: white;
+}
